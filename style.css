@@ -1,3 +1,15 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.m-tp{
+    margin-top: 80px;
+}
+.m-top{
+    margin-top: 130px;
+}
+.m-bottom{
+    margin-bottom: 130px;
+}
+.m-btm{
+    margin-bottom: 80px;
+}
