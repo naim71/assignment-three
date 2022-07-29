@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .m-tp{
     margin-top: 80px;
@@ -13,17 +15,7 @@ body{
 .m-btm{
     margin-bottom: 80px;
 }
-/* .carousel-caption{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
 
-} */
 .carousel-item::before{
     content: "";
     display: block;
