@@ -13,3 +13,29 @@ body{
 .m-btm{
     margin-bottom: 80px;
 }
+/* .carousel-caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+} */
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+.f-size{
+    font-size: 60px;
+}
